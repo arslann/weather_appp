@@ -1,0 +1,13 @@
+.wa__weatherContainer {
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 2em;
+
+  /* padding: 0 1rem; */
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.2rem;
+}
