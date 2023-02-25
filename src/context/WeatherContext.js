@@ -23,6 +23,7 @@ export const WeatherProvider = ({ children }) => {
 
   useEffect(() => {
     if (city) fetchData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [city]);
 
   console.log(cityData);

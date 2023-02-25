@@ -21,6 +21,7 @@ function Sidebar({ sidebar }) {
       let data = countries.filter((el) => el.country === selectedCountry);
       setCities(data[0].cities);
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedCountry]);
 
   const handleSubmit = (e) => {
