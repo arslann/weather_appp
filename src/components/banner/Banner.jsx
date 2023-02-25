@@ -10,8 +10,8 @@ function Banner({ sidebar }) {
       <div className="wa__banner-background-filter">
         <div className="wa__banner-background">
           <div className="wa__banner-text">
-            <h2>City</h2>
-            <p>Weather for the next 7 days</p>
+            <h2>Şehir seçerek hava durumunu öğrenebilirsiniz.</h2>
+            <p>Şehrini seç ve hava durumunu öğren.</p>
           </div>
           <div className="wa__banner-button">
             <button onClick={() => setSidebar(!toggle)}>Şehir Ekle</button>
